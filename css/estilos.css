@@ -14,10 +14,14 @@ body {
 .senyor:hover .icono {
   display: block;
 }
+
 .senyor .avatar img {
   transition: transform 0.3s;
 }
 .senyor:hover .avatar img {
+  transform: scaleX(-1);
+}
+.avatar-marcado {
   transform: scaleX(-1);
 }
 .avatar {
@@ -53,6 +57,10 @@ body {
   text-align: center;
   display: none;
 }
+.icono-marcado {
+  display: block;
+}
+
 .senyor-molde {
   display: none;
 }
